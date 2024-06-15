@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Vanderbilt University
 
 profile:
   align: right
@@ -17,8 +17,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I'm Eduardo Davalos and take you for visiting my personal website. I'm a PhD Student in the [OELE Lab](https://wp0.vanderbilt.edu/oele/) at Vanderbilt University, advised by Prof. [Guatam Biswas](https://engineering.vanderbilt.edu/bio/?pid=gautam-biswas).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on multimodal learning analytics, computer vision, and machine learning. My recent work focuses on scaling learning analytics, based on eye-tracking, and providing teachers and students insightful and actionable analytics to help their educational experience.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my bachelor and master's degree in Electrical Engineering at St. Mary's University in 2020. During these time, my work focused on rigid 6D pose estimation on monocular videos with Prof. [Mehran Aminian](https://www.stmarytx.edu/academics/faculty/mehran-aminian/).
