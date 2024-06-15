@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I'm Eduardo Davalos and take you for visiting my personal website. I'm a PhD Student in the [OELE Lab](https://wp0.vanderbilt.edu/oele/) at Vanderbilt University, advised by Prof. [Guatam Biswas](https://engineering.vanderbilt.edu/bio/?pid=gautam-biswas).
+Hello, thank you for visiting my personal website. I'm a PhD Student in the [OELE Lab](https://wp0.vanderbilt.edu/oele/) at Vanderbilt University, advised by Prof. [Guatam Biswas](https://engineering.vanderbilt.edu/bio/?pid=gautam-biswas).
 
 My research focuses on multimodal learning analytics, computer vision, and machine learning. My recent work focuses on scaling learning analytics, based on eye-tracking, and providing teachers and students insightful and actionable analytics to help their educational experience.
 
