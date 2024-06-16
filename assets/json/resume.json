@@ -9,7 +9,6 @@
     "email": "eduardo.davalos.anaya@vanderbilt.edu",
     "phone": "(+1) 210-412-5589",
     "url": "https://edavalosanaya.github.io",
-    "summary": "A PhD Student focused on scalable multimodal learning analytics and AI",
     "location": {
       "address": "1025 16th Ave S",
       "postalCode": "TN 37217",
@@ -63,6 +62,16 @@
     }
   ],
   "education": [
+    {
+      "institution": "Vanderbilt University, Nashville, TN, USA",
+      "location": "Nashville, USA",
+      "url": "https://www.vanderbilt.edu",
+      "area": "Computer Science",
+      "studyType": "PhD in Computer Science",
+      "startDate": "2021-08-01",
+      "endDate": "current",
+      "score": "4.00"
+    },
     {
       "institution": "St.Mary's University, San Antonio, TX, USA",
       "location": "San Antonio, USA",
@@ -166,11 +175,6 @@
     }
   ],
   "interests": [
-    "AI",
-    "Multimodal Learning Analytics",
-    "Eye-Tracking",
-    "Data Engineering",
-    "EdTech"
   ],
   "references": [
   ],

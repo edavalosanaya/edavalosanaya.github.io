@@ -8,9 +8,14 @@ cv:
     - network: GitHub
       username: edavalosanaya
   sections:
-    summary:
-      - "A PhD Student focused on scalable multimodal learning analytics and AI, through the use of off-body sensors and other non-invasive techniques."
     education:
+      - institution: Vanderbilt University, Nashville, TN, USA
+        area: Computer Science
+        degree: PhD
+        start_date: 2021-08-01
+        end_date: present
+        highlights: 
+          - 'GPA: 3.95/4.0'
       - institution: St.Mary's University, San Antonio, TX, USA
         area: Electrical Engineering
         degree: MS
@@ -58,16 +63,16 @@ cv:
           - Gautam Biswas
         doi: ''
         date: '2024-04'
-      - title: 'Monocular Microscope to CT Registration using Pose Estimation of the Incus for Augmented Reality Cochlear Implant Surgery'
+      - title: 'Monocular Microscope to CT Registration using Pose Estimation of the Incus for Augmented Reality Cochlear Implant Surgery [](https://arxiv.org/abs/2403.07219)'
         authors: 
           - Yike Zhang
           - Eduardo Davalos
           - Dingjie Su
           - Ange Lou
           - Jack H. Noble
-        doi: '10.48550/arXiv.2403.07219'
+        doi: ''
         date: '2024-03'
-      - title: A First Step Using Machine Learning Methods to Enhance Interaction Analysis for Embodied Learning Environments
+      - title: 'A First Step Using Machine Learning Methods to Enhance Interaction Analysis for Embodied Learning Environments [](https://arxiv.org/abs/2405.06203)'
         authors: 
           - Joyce H. Fonteles
           - Eduardo Davalos
@@ -81,9 +86,9 @@ cv:
           - Joshua Danish
           - Noel Enyedy
           - Gautam Biswas
-        doi: '10.48550/arXiv.2405.06203'
+        doi: ''
         date: '2024-04'
-      - title: 'ChimeraPy: A Scientific Distributed Streaming Framework for Real-time Multimodal Data Retrieval and Processing'
+      - title: 'ChimeraPy: A Scientific Distributed Streaming Framework for Real-time Multimodal Data Retrieval and Processing [](https://ieeexplore.ieee.org/document/10386382)'
         authors: 
           - Eduardo Davalos
           - Umesh Timalsina
@@ -91,9 +96,9 @@ cv:
           - Jiayi Wu
           - Joyce H. Fonteles
           - Gautam Biswas
-        doi: '10.1109/BigData59044.2023.10386382'
+        doi: ''
         date: '2023-12'
-      - title: 'Identifying Gaze Behavior Evolution via Temporal Fully-Weighted Scanpath Graphs'
+      - title: 'Identifying Gaze Behavior Evolution via Temporal Fully-Weighted Scanpath Graphs [](https://dl.acm.org/doi/abs/10.1145/3576050.3576117)'
         authors: 
           - Eduardo Davalos
           - Caleb Vatral
@@ -103,9 +108,9 @@ cv:
           - Naveeduddin Mohammed
           - Madison Lee
           - Daniel Levin
-        doi: '10.1145/3576050.3576117'
+        doi: ''
         date: '2023-03'
-      - title: "Prediction of Students' Self-confidence Using Multimodal Features in an Experiential Nurse Training Environment"
+      - title: "Prediction of Students' Self-confidence Using Multimodal Features in an Experiential Nurse Training Environment [](https://link.springer.com/chapter/10.1007/978-3-031-36336-8_41)"
         authors: 
           - Caleb Vatral
           - Madison Lee
@@ -113,7 +118,7 @@ cv:
           - Eduardo Davalos
         doi: ''
         date: '2023-06'
-      - title: 'A Tale of Two Nurses: Studying Groupwork in Nurse Training by Analyzing Taskwork Roles, Social Interactions, and Self-Efficacy'
+      - title: 'A Tale of Two Nurses: Studying Groupwork in Nurse Training by Analyzing Taskwork Roles, Social Interactions, and Self-Efficacy [](https://www.researchgate.net/publication/371721507_A_Tale_of_Two_Nurses_Studying_Groupwork_in_Nurse_Training_by_Analyzing_Taskwork_Roles_Social_Interactions_and_Self-Efficacy)'
         authors:
           - Caleb Vatral
           - Clayton Cohn
@@ -123,47 +128,82 @@ cv:
           - Dan Levin
           - Eric Hall
           - Ho Ellen Holt
-        doi: 10.22318/cscl2023.102810
+        doi: '' 
         date: '2023-06'
-      - title: 'Using the DiCoT framework for integrated multimodal analysis in mixed-reality training environments'
+      - title: 'Using the DiCoT framework for integrated multimodal analysis in mixed-reality training environments [](https://www.frontiersin.org/articles/10.3389/frai.2022.941825/full)'
         authors: 
           - Caleb Vatral
           - Gautam Biswas
           - Clayton Cohn
           - Eduardo Davalos
           - Naveeduddin Mohammed
-        doi: '10.3389/frai.2022.941825'
+        doi: ''
         date: '2022-07'
-      - title: 'FastPoseCNN: Real-Time Monocular Category-Level Pose and Size Estimation Framework'
+      - title: 'FastPoseCNN: Real-Time Monocular Category-Level Pose and Size Estimation Framework [](https://github.com/edavalosanaya/FastPoseCNN)'
         authors: 
           - Eduardo Davalos
           - Mehran Aminian
         date: '2021-5'
     projects:
-      - name: RedForest
-        date: '[code](https://github.com/redforestai) 2023-10-01'
+      - name: 'RedForest [](https://github.com/redforestai) '
+        date: '2023-10-01'
         highlights:
           - 'Project Description: Developed a EdTech platform for scalable multimodal learning analytics and AI, providing self-regulating feedback to teachers and students.'
           - 'Technologies: TS/JS, NextJS, Tailwind, TensorFlow, D3.'
-      - name: 'SyncFlow'
-        date: '[code](https://github.com/oele-isis-vanderbilt/syncflow) 2024-01-01'
+      - name: 'SyncFlow [](https://github.com/oele-isis-vanderbilt/syncflow)'
+        date: '2024-01-01'
         highlights:
           - 'Project Description: Developed both a cloud and IoT platform for scalable multimodal analytics, including streaming, storage, processing, and AI logic of multimodal data.'
           - 'Technologies: Rust, Python, WebRTC, NextJS, Tailwind.'
-      - name: 'ChimeraPy'
-        date: '[code](https://github.com/ChimeraPy) 2021-06-01'
+      - name: 'ChimeraPy [](https://github.com/ChimeraPy)'
+        date: '2021-06-01'
         highlights:
           - 'Project Description: Developed a scientific distributed streaming framework for real-time multimodal data retrieval and processing.'
           - 'Technologies: Python, ZeroMQ.'
-      - name: SKORE
-        date: '[code](https://github.com/edavalosanaya/SKORE) 2018-06-01'
+      - name: 'SKORE [](https://github.com/edavalosanaya/SKORE)'
+        date: '2018-06-01'
         highlights:
           - 'Project Description: Developed a smart keyboard operated by a robotic educator.'
           - 'Technologies: Python, Arduino.'
     technologies:
       - label: Languages
         details: Python, JS/TS, Rust, C++, Java
-      - label: Services
-        details: 'AWS, Vercel, Supabase, GitHub Pages, Wordpress'
       - label: Libraries
         details: 'PyTorch, TensorFlow, ReactJS, NextJS, FastAPI, Flask, Numpy, Pandas, D3, Matplotlib'
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
