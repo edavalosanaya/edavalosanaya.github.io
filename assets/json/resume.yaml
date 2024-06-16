@@ -1,0 +1,169 @@
+cv:
+  name: Eduardo Davalos
+  location: Nashville, US
+  email: eduardo.davalos.anaya@vanderbilt.edu
+  phone: (+1) 210-412-5589
+  website: https://edavalosanaya.github.io/
+  social_networks:
+    - network: GitHub
+      username: edavalosanaya
+  sections:
+    summary:
+      - "A PhD Student focused on scalable multimodal learning analytics and AI, through the use of off-body sensors and other non-invasive techniques."
+    education:
+      - institution: St.Mary's University, San Antonio, TX, USA
+        area: Electrical Engineering
+        degree: MS
+        start_date: 2019-07-01
+        end_date: 2021-04-01
+        highlights: 
+          - 'GPA: 4.0/4.0'
+          - 'Thesis: FastPoseCNN: Real-Time Monocular Category-Level Pose and Size Estimation Framework'
+      - institution: St.Mary's University, San Antonio, TX, USA
+        area: Electrical Engineering
+        degree: BS
+        start_date: 2015-07-01
+        end_date: 2019-04-01
+        highlights: 
+          - 'GPA: 3.93/4.0'
+          - 'Thesis: SKORE: Smart Keyboard Operated by Robotic Educator'
+    experience:
+      - company: American Red Cross
+        position: Fullstack Software Engineer - Intern
+        start_date: 2019-05-01
+        end_date: 2019-07-01
+        highlights:
+          - 'Project Description: Developed a web-based application for the American Red Cross to manage and monitor the status of edge devices deployed in the field.'
+          - 'Technologies: Python, Wordpress, Arduino, Docker.'
+      - company: St. Mary's Engineering Department
+        position: Robotics Teaching Assistant
+        start_date: 2016-05-01
+        end_date: 2016-07-01
+        highlights:
+          - 'Mentored, directed, and guided students throughout a summer program, teaching them principle components in mechanical design, electrical circuitry, and software development aimed at robotics.'
+      - company: St. Mary's Learning Assistance Center
+        position: Programming and Physics Tutor
+        start_date: 2016-07-01
+        end_date: 2018-03-01
+        highlights:
+          - 'Instructed and guided students in the subjects of classical physics and C programming.'
+    publications:
+      - title: 3D Gaze Tracking for Studying Collaborative Interactions in Mixed-Reality Environments 
+        authors: 
+          - Eduardo Davalos
+          - Joyce H. Fonteles
+          - Yike Zhang
+          - Ashwin T. S.
+          - Umesh Timalsina
+          - Gautam Biswas
+        doi: ''
+        date: '2024-04'
+      - title: 'Monocular Microscope to CT Registration using Pose Estimation of the Incus for Augmented Reality Cochlear Implant Surgery'
+        authors: 
+          - Yike Zhang
+          - Eduardo Davalos
+          - Dingjie Su
+          - Ange Lou
+          - Jack H. Noble
+        doi: '10.48550/arXiv.2403.07219'
+        date: '2024-03'
+      - title: A First Step Using Machine Learning Methods to Enhance Interaction Analysis for Embodied Learning Environments
+        authors: 
+          - Joyce H. Fonteles
+          - Eduardo Davalos
+          - Ashwin T. S.
+          - Yike Zhang
+          - Mengxi Zhou
+          - Efrat Ayalon
+          - Alicia Lane
+          - Selena Steinberg
+          - Gabriella Anton
+          - Joshua Danish
+          - Noel Enyedy
+          - Gautam Biswas
+        doi: '10.48550/arXiv.2405.06203'
+        date: '2024-04'
+      - title: 'ChimeraPy: A Scientific Distributed Streaming Framework for Real-time Multimodal Data Retrieval and Processing'
+        authors: 
+          - Eduardo Davalos
+          - Umesh Timalsina
+          - Yike Zhang
+          - Jiayi Wu
+          - Joyce H. Fonteles
+          - Gautam Biswas
+        doi: '10.1109/BigData59044.2023.10386382'
+        date: '2023-12'
+      - title: 'Identifying Gaze Behavior Evolution via Temporal Fully-Weighted Scanpath Graphs'
+        authors: 
+          - Eduardo Davalos
+          - Caleb Vatral
+          - Clayton Cohn
+          - Joyce Horn Fonteles
+          - Gautam Biswas
+          - Naveeduddin Mohammed
+          - Madison Lee
+          - Daniel Levin
+        doi: '10.1145/3576050.3576117'
+        date: '2023-03'
+      - title: "Prediction of Students' Self-confidence Using Multimodal Features in an Experiential Nurse Training Environment"
+        authors: 
+          - Caleb Vatral
+          - Madison Lee
+          - Clayton Cohn
+          - Eduardo Davalos
+        doi: ''
+        date: '2023-06'
+      - title: 'A Tale of Two Nurses: Studying Groupwork in Nurse Training by Analyzing Taskwork Roles, Social Interactions, and Self-Efficacy'
+        authors:
+          - Caleb Vatral
+          - Clayton Cohn
+          - Eduardo Davalos
+          - Gautam Biswas
+          - Madison Lee
+          - Dan Levin
+          - Eric Hall
+          - Ho Ellen Holt
+        doi: 10.22318/cscl2023.102810
+        date: '2023-06'
+      - title: 'Using the DiCoT framework for integrated multimodal analysis in mixed-reality training environments'
+        authors: 
+          - Caleb Vatral
+          - Gautam Biswas
+          - Clayton Cohn
+          - Eduardo Davalos
+          - Naveeduddin Mohammed
+        doi: '10.3389/frai.2022.941825'
+        date: '2022-07'
+      - title: 'FastPoseCNN: Real-Time Monocular Category-Level Pose and Size Estimation Framework'
+        authors: 
+          - Eduardo Davalos
+          - Mehran Aminian
+        date: '2021-5'
+    projects:
+      - name: RedForest
+        date: '[code](https://github.com/redforestai) 2023-10-01'
+        highlights:
+          - 'Project Description: Developed a EdTech platform for scalable multimodal learning analytics and AI, providing self-regulating feedback to teachers and students.'
+          - 'Technologies: TS/JS, NextJS, Tailwind, TensorFlow, D3.'
+      - name: 'SyncFlow'
+        date: '[code](https://github.com/oele-isis-vanderbilt/syncflow) 2024-01-01'
+        highlights:
+          - 'Project Description: Developed both a cloud and IoT platform for scalable multimodal analytics, including streaming, storage, processing, and AI logic of multimodal data.'
+          - 'Technologies: Rust, Python, WebRTC, NextJS, Tailwind.'
+      - name: 'ChimeraPy'
+        date: '[code](https://github.com/ChimeraPy) 2021-06-01'
+        highlights:
+          - 'Project Description: Developed a scientific distributed streaming framework for real-time multimodal data retrieval and processing.'
+          - 'Technologies: Python, ZeroMQ.'
+      - name: SKORE
+        date: '[code](https://github.com/edavalosanaya/SKORE) 2018-06-01'
+        highlights:
+          - 'Project Description: Developed a smart keyboard operated by a robotic educator.'
+          - 'Technologies: Python, Arduino.'
+    technologies:
+      - label: Languages
+        details: Python, JS/TS, Rust, C++, Java
+      - label: Services
+        details: 'AWS, Vercel, Supabase, GitHub Pages, Wordpress'
+      - label: Libraries
+        details: 'PyTorch, TensorFlow, ReactJS, NextJS, FastAPI, Flask, Numpy, Pandas, D3, Matplotlib'

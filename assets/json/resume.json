@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "theme": ""
+  },
   "basics": {
     "name": "Eduardo Davalos",
     "label": "PhD Student",
@@ -163,6 +166,11 @@
     }
   ],
   "interests": [
+    "AI",
+    "Multimodal Learning Analytics",
+    "Eye-Tracking",
+    "Data Engineering",
+    "EdTech"
   ],
   "references": [
   ],
