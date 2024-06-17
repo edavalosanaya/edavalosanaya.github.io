@@ -139,11 +139,15 @@ cv:
           - Naveeduddin Mohammed
         doi: ''
         date: '2022-07'
-      - title: 'FastPoseCNN: Real-Time Monocular Category-Level Pose and Size Estimation Framework [](https://github.com/edavalosanaya/FastPoseCNN)'
-        authors: 
+      - title: 'Adaptive Scaffolding to Support Strategic Learning in an Open-Ended Learnin Environment [](https://icce2022.apsce.net/uploads/P1_C1_21.pdf)'
+        authors:
+          - Anabil Munshi
+          - Gautam Biswas
           - Eduardo Davalos
-          - Mehran Aminian
-        date: '2021-5'
+          - Olivia Logan
+          - Gayathri Narasimham
+          - Marian Rushdy
+        date: '2022-07'
     projects:
       - name: 'RedForest [](https://github.com/redforestai) '
         date: '2023-10-01'
