@@ -99,17 +99,37 @@
   ],
   "publications": [
     {
+      "name": "GazeViz: A Web-Based Approach for Visualizing Learner Gaze Patterns in Online Educational Environment",
+      "publisher": "ICCE 2024",
+      "releaseDate": "in-press",
+      "summary": "Developed a web-based approach for visualizing learner gaze patterns in online educational environments, focusing on browser integration, dashboard design, and scalable eye-tracking visualization."
+    },
+    {
       "name": "3D Gaze Tracking for Studying Collaborative Interactions in Mixed-Reality Environments",
-      "publisher": "Submitted to ICMI 2024",
-      "releaseDate": "2024-01-01",
+      "publisher": "ICMI Companion 2024",
+      "releaseDate": "in-press",
       "summary": "Developed computational pipeline leveraging from off-the-shelf computer vision algorithms to perform 3D gaze tracking in mixed-reality environments."
+    },
+    {
+      "name": "Multimodal Methods for Analyzing Learning and Training Environments: A Systematic Literature Review",
+      "publisher": "arXiv",
+      "releaseDate": "2024-08-22",
+      "url": "https://arxiv.org/abs/2408.14491",
+      "summary": "Conducted a systematic literature review on multimodal methods for analyzing learning and training environments, contributing to the understanding of advanced analytical techniques in educational settings."
     },
     {
       "name": "A First Step Using Machine Learning Methods to Enhance Interaction Analysis for Embodied Learning Environments",
       "publisher": "AIED 2024",
-      "releaseDate": "in-press",
-      "url": "https://arxiv.org/abs/2405.06203",
+      "releaseDate": "2024-07-02",
+      "url": "https://doi.org/10.1007/978-3-031-64299-9_1",
       "summary": "Developed AI techniques and software tools to analyze multimodal data from embodied learning environments involving the interaction analysis."
+    },
+    {
+      "name": "Monocular Microscope to CT Registration using Pose Estimation of the Incus for Augmented Reality Cochlear Implant Surgery",
+      "publisher": "SPIE Medical Imaging 2024",
+      "releaseDate": "2024-03-01",
+      "url": "https://doi.org/10.1117/12.3008830",
+      "summary": "Developed a computational pipeline leveraging from off-the-shelf computer vision algorithms to perform 3D gaze tracking in mixed-reality environments."
     },
     {
       "name": "ChimeraPy: A Scientific Distributed Streaming Framework for Real-time Multimodal Data Retrieval and Processing",
@@ -124,6 +144,36 @@
       "releaseDate": "2023-03-17",
       "url": "https://dl.acm.org/doi/abs/10.1145/3576050.3576117",
       "summary": "Identified gaze-based behaviors along the temporal dimension through the use of graphs involving fixated objects in a mixed-reality environment."
+    },
+    {
+      "name": "Prediction of Students' Self-confidence Using Multimodal Features in an Experiential Nurse Training Environment",
+      "publisher": "AIED 2023",
+      "releaseDate": "2023-06-30",
+      "url": "https://doi.org/10.1007/978-3-031-36336-8_41",
+      "summary": "Developed predictive models using multimodal data (eye gaze and speech patterns) to accurately predict students' self-rated confidence in simulation-based nurse training environments.",
+      "pdf": "Vatraletal.2023-AIED.pdf"
+    },
+    {
+      "name": "A Tale of Two Nurses: Studying Groupwork in Nurse Training by Analyzing Taskwork Roles, Social Interactions, and Self-Efficacy",
+      "publisher": "Computer-Supported Collaborative Learning Conference, CSCL",
+      "releaseDate": "2023-06-01",
+      "url": "https://doi.org/10.22318/cscl2023.102810",
+      "summary": "Analyzed a mixed-reality, simulation-based training exercise involving three nurses, performing multimodal interaction analysis to contrast strategies used when patients expressed doubts about their care. Demonstrated connections among nurses' clinical roles, self-efficacy, and teamwork.",
+      "pdf": "Vatraletal.2023-ISLS.pdf"
+    },
+    {
+      "name": "Using the DiCoT framework for integrated multimodal analysis in mixed-reality training environments",
+      "publisher": "Frontiers in Artificial Intelligence 2022",
+      "releaseDate": "2022-03-01",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9353401/",
+      "summary": "Developed a computational pipeline leveraging from off-the-shelf computer vision algorithms to perform 3D gaze tracking in mixed-reality environments."
+    },
+    {
+      "name": "Adaptive Scaffolding to Support Strategic Learning in an Open-Ended Learning Environment",
+      "publisher": "2022",
+      "releaseDate": "2022-01-01",
+      "summary": "Developed an adaptive scaffolding framework for Betty's Brain, an open-ended learning-by-teaching environment. The framework includes an online strategy detector and a conversational adaptive feedback mechanism to support students' strategic learning. Conducted a pilot study with undergraduate students, analyzing activity logs, interactions, and eye-gaze patterns to infer learning behaviors and performance.",
+      "pdf": "Munshi2022.pdf"
     }
   ],
   "skills": [
