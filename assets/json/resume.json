@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Eduardo Davalos",
-    "label": "Graduate Research Assistant",
+    "label": "AI & Education PhD Researcher",
     "image": "https://edavalosanaya.github.io/assets/img/profile-480.webp",
     "email": "eduardo.davalos.anaya@vanderbilt.edu",
     "phone": "(+1) 210-412-5589",
@@ -36,29 +36,30 @@
   },
   "work": [
     {
-      "name": "American Red Cross",
-      "position": "Fullstack Software Engineer - Intern",
-      "url": "https://github.com/edavalosanaya/EmergencyStations",
-      "startDate": "2019-05-01",
-      "endDate": "2019-07-01",
-      "summary": "Developed a web application to help the American Red Cross to manage their emergency stations",
-      "highlights": ["python", "wordpress", "edge devices"]
+      "name": "Vanderbilt University",
+      "position": "Artificial Intelligence and Education Graduate Researcher - PhD",
+      "url": "https://wp0.vanderbilt.edu/oele/eduardo-davalos/",
+      "startDate": "2021-08-01",
+      "endDate": "",
+      "summary": "My concentration is on using AI and web technologies to analyze gaze and other multimodal data to understand how learners interact with technology.",
+      "highlights": [
+        "Improved scalability of AI pipelines for multimodal data analysis in large-scale learning environments via SyncFlow.",
+        "Developed a 3D gaze tracking system supporting over 8+ concurrent users in a mixed-reality environment.",
+        "Created a learning analytics platform for analyzing learner behavior and performance named RedForest supporting 100+ concurrent users.",
+        "Published 10+ papers in journals and conferences related to artificial intelligence and education.",
+        "Mentored 5+ undergraduate students in research projects related to AI and education."
+      ]
     },
     {
-      "name": "St. Mary's Engineering Department",
-      "position": "Robotics Teaching Assistant",
-      "startDate": "2016-05-01",
-      "endDate": "2016-07-01",
-      "summary": "Mentored, directed, and guided students throughout a summer program, teaching them the principles of robotics.",
-      "highlights": ["mentorship", "robotics"]
-    },
-    {
-      "name": "St. Mary's Learning Assistance Center",
-      "position": "Programming and Physics Tutor",
-      "startDate": "2016-07-01",
-      "endDate": "2018-03-01",
-      "summary": "Instructed and guided students in programming and physics courses, helping them to understand complex concepts and improve their grades.",
-      "highlights": ["tutor", "programming", "physics"]
+      "name": "St. Mary's University",
+      "position": "Computer Vision Graduate Researcher- MS",
+      "startDate": "2019-07-01",
+      "endDate": "2021-04-01",
+      "summary": "For my masters, I focused on Computer Vision and Machine Learning applied to 6D Pose Estimation of house-hold objects.",
+      "highlights": [
+        "Achieved real-time 6D Pose Estimation of common household objects using a monocular webcam and a physics engine",
+        "Improved model accuracy by 10% by training a physics engine with a custom dataset of objects with known poses."
+      ]
     }
   ],
   "education": [
@@ -69,7 +70,7 @@
       "area": "Computer Science",
       "studyType": "PhD in Computer Science",
       "startDate": "2021-08-01",
-      "endDate": "current",
+      "endDate": "",
       "score": "4.00"
     },
     {
@@ -100,8 +101,9 @@
   "publications": [
     {
       "name": "GazeViz: A Web-Based Approach for Visualizing Learner Gaze Patterns in Online Educational Environment",
+      "authors": ["Eduardo Davalos", "Jorge A. Ruiz-Garcia", "Marcelo G. Manzato", "Marcelo G. Manzato"],
       "publisher": "ICCE 2024",
-      "releaseDate": "in-press",
+      "releaseDate": "in press",
       "summary": "Developed a web-based approach for visualizing learner gaze patterns in online educational environments, focusing on browser integration, dashboard design, and scalable eye-tracking visualization."
     },
     {
@@ -129,7 +131,7 @@
       "publisher": "SPIE Medical Imaging 2024",
       "releaseDate": "2024-03-01",
       "url": "https://doi.org/10.1117/12.3008830",
-      "summary": "Developed a computational pipeline leveraging from off-the-shelf computer vision algorithms to perform 3D gaze tracking in mixed-reality environments."
+      "summary": "Generated a pose estimation AI model to register a microscope to a CT scan of the human head to enable augmented reality cochlear implant surgery."
     },
     {
       "name": "ChimeraPy: A Scientific Distributed Streaming Framework for Real-time Multimodal Data Retrieval and Processing",
@@ -166,7 +168,7 @@
       "publisher": "Frontiers in Artificial Intelligence 2022",
       "releaseDate": "2022-03-01",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9353401/",
-      "summary": "Developed a computational pipeline leveraging from off-the-shelf computer vision algorithms to perform 3D gaze tracking in mixed-reality environments."
+      "summary": "Derived a multimodal analysis framework for mixed-reality training environments that leverages the DiCoT framework to integrate data from different modalities."
     },
     {
       "name": "Adaptive Scaffolding to Support Strategic Learning in an Open-Ended Learning Environment",
@@ -177,17 +179,6 @@
     }
   ],
   "skills": [
-    {
-      "name": "Web Dev",
-      "level": "Advance",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Front End Development",
-        "Back End Development & Infrastructure",
-        "Computer Networking",
-        "Iot Devices"
-      ]
-    },
     {
       "name": "Data Science",
       "level": "Advance",
@@ -209,6 +200,17 @@
         "End-to-End Data Pipelines",
         "Multimedia Data Processing",
         "Data Visualization"
+      ]
+    },
+    {
+      "name": "Web Dev",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Front End Development",
+        "Back End Development & Infrastructure",
+        "Computer Networking",
+        "Iot Devices"
       ]
     }
   ],
