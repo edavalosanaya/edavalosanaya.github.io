@@ -4,7 +4,8 @@
     "prettier": "3.1.1"
   },
   "dependencies": {
-    "jsonresume-theme-even": "^0.22.0",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-even": "^0.22.1",
     "resumed": "^3.0.1"
   }
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "theme": ""
+    "theme": "jsonresume-theme-caffeine"
   },
   "basics": {
     "name": "Eduardo Davalos",
-    "label": "PhD Student",
-    "image": "",
+    "label": "Graduate Research Assistant",
+    "image": "https://edavalosanaya.github.io/assets/img/profile-480.webp",
     "email": "eduardo.davalos.anaya@vanderbilt.edu",
     "phone": "(+1) 210-412-5589",
     "url": "https://edavalosanaya.github.io",
