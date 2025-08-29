@@ -72,7 +72,7 @@ const TEACHING: Record<string, { code: string; name: string; href?: string }[]> 
 };
 // ----------------------------------------------------------------------------
 
-export function HomePage() {
+export function ResearchPage() {
   // const headshotUrl = asset(PROFILE.headshot);
   // const cvUrl = asset(PROFILE.cvPdf);
   const headshotUrl = PROFILE.headshot;
