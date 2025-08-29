@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu, Github } from "lucide-react";
+
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -152,7 +153,6 @@ export default function App() {
 
       {/* Main content */}
       <main>
-        {/* Hero Banner with WebEyeTrack slogan*/}
         <HomePage />
       </main>
 
