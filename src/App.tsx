@@ -13,9 +13,7 @@ import { Sheet, SheetContent, SheetTrigger } from "./components/ui/sheet";
 // import { InlineCode } from "./components/ui/inline-code"
 // import { AvatarCard } from "./components/ui/avatar-card";
 // import { YouTubeEmbed } from "./components/ui/youtube-embed";
-
-// @ts-ignore
-import { HomePage } from "./pages/home";
+import { HomePage } from "./pages/Home";
 
 // https://gist.github.com/SheldonWangRJT/8d3f44a35c8d1386a396b9b49b43c385
 
