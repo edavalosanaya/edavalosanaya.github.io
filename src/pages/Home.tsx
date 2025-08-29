@@ -63,18 +63,17 @@ const CONTACT = {
 // Teaching grouped by term; add/swap terms as needed
 const TEACHING: Record<string, { code: string; name: string; href?: string }[]> = {
   "Fall 2025": [
-    { code: "CS 3xxx", name: "Human–AI Interaction", href: "https://example.com/syllabus" },
-    { code: "CS 3xxx", name: "Applied LLMs" },
+    { code: "CSCI 1320", name: "Principles of Computer Science I"},
+    { code: "CSCI 3394", name: "Special Topics: Human-Centered Artificial Intelligence" },
   ],
   "Spring 2025": [
-    { code: "CS 3xxx", name: "AI for Learning Sciences" },
+    { code: "CSCI 3345", name: "Web Application Design" },
+    { code: "CSCI 3366", name: "Parallel and Distributed Programming" },
   ],
 };
 // ----------------------------------------------------------------------------
 
 export function HomePage() {
-  // const headshotUrl = asset(PROFILE.headshot);
-  // const cvUrl = asset(PROFILE.cvPdf);
   const headshotUrl = PROFILE.headshot;
   const cvUrl = PROFILE.cvPdf;
 
@@ -110,7 +109,7 @@ export function HomePage() {
                     </a>
                   </Button>
                   <Button asChild size="sm" variant="outline">
-                    <a href="https://scholar.google.com/citations?user=example" target="_blank" rel="noreferrer noopener">
+                    <a href="https://scholar.google.com/citations?user=tAszlSkAAAAJ&hl=en&oi=ao" target="_blank" rel="noreferrer noopener">
                       Google Scholar
                     </a>
                   </Button>
