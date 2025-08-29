@@ -102,6 +102,26 @@ export function HomePage() {
                     View CV (PDF)
                   </a>
                 </Button>
+                <Button asChild size="sm" variant="outline">
+                  <a href="https://www.github.com/edavalosanaya/" target="_blank" rel="noreferrer noopener">
+                    GitHub
+                  </a>
+                </Button>
+                <Button asChild size="sm" variant="outline">
+                  <a href="https://scholar.google.com/citations?user=example" target="_blank" rel="noreferrer noopener">
+                    Google Scholar
+                  </a>
+                </Button>
+                <Button asChild size="sm" variant="outline">
+                  <a href="https://www.researchgate.net/profile/Eduardo-Davalos-Anaya?ev=hdr_xprf" target="_blank" rel="noreferrer noopener">
+                    ResearchGate
+                  </a>
+                </Button>
+                <Button asChild size="sm" variant="outline">
+                  <a href="https://orcid.org/0000-0001-7190-7273" target="_blank" rel="noreferrer noopener">
+                    ORCID
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

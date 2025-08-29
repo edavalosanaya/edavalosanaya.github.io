@@ -130,7 +130,6 @@ export default function App() {
             {/* Brand */}
             <div className="flex items-center gap-3">
               {/* Uncomment if you have a logo asset */}
-              {/* <img src={logo} alt="WebEyeTrack logo" className="h-7 w-7" /> */}
               <a
                 href="#hero"
                 onClick={(e) => {
@@ -145,17 +144,6 @@ export default function App() {
 
             <DesktopNav />
             <div className="flex items-center gap-2">
-              <a
-                href="https://github.com/RedForestAI/WebEyeTrack"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="hidden sm:inline-flex"
-              >
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Github className="h-4 w-4" />
-                  GitHub
-                </Button>
-              </a>
               <MobileNav />
             </div>
           </div>
@@ -171,7 +159,7 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t py-8">
         <div className="container mx-auto max-w-6xl px-4 text-sm text-muted-foreground">
-          © {new Date().getFullYear()} WebEyeTrack Team. All rights reserved.
+          © {new Date().getFullYear()} Eduardo Davalos Anaya. All rights reserved.
         </div>
       </footer>
 
