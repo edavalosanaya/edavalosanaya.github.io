@@ -1,6 +1,7 @@
 import { NavBar } from "@/components/ui/nav-bar";
 import { Separator } from "../components/ui/separator";
 import { Button } from "../components/ui/button";
+import { PublicationCard, type PublicationCardProps } from "../components/ui/publication-card";
 
 // Helper to build URLs that respect Vite's base (works on GitHub Pages)
 // const asset = (p: string) => new URL(p.replace(/^\//, ""), import.meta.env.BASE_URL).toString();
@@ -21,18 +22,18 @@ const PROFILE = {
     "On‑device ML",
     "Learning Analytics",
   ],
-  cvPdf: "cv.pdf", // place under docs/public/
+  cvPdf: "/CVs/Eduardo-Davalos-CV_Aug29_2025.pdf", // place under docs/public/
 };
 
-type Pub = {
-  title: string;
-  authors: string;
-  venue?: string;
-  year?: string | number;
-  links?: { label: string; href: string }[];
-};
+// type Pub = {
+//   title: string;
+//   authors: string;
+//   venue?: string;
+//   year?: string | number;
+//   links?: { label: string; href: string }[];
+// };
 
-const PUBLICATIONS: Pub[] = [
+const PUBLICATIONS: PublicationCardProps[] = [
   {
     title:
       "WEBEYETRACK: Scalable Eye‑Tracking for the Browser via On‑Device Few‑Shot Personalization",
@@ -45,8 +46,179 @@ const PUBLICATIONS: Pub[] = [
       { label: "Paper", href: "https://arxiv.org/abs/2508.19544" },
       { label: "Code", href: "https://github.com/RedForestAi/WebEyeTrack" },
     ],
+    imageSrc: "/paper_teasers/WebEyeTrack_AAAI2026.png",
+    imageAlt: "WebEyeTrack Architecture Figure"
   },
   // Add more entries here
+  {
+    title:
+      "LLMs as Educational Analysts: Transforming Multimodal Data Traces into Actionable Reading Assessment Reports",
+    authors:
+      "E. Davalos, Y. Zhang, N. Srivastava, J. A. Salas, S. McFadden, S.-J. Cho, G. Biswas, A. Goodwin",
+    venue: "AIED",
+    year: 2025,
+    links: [
+      { label: "Website", href: "https://link.springer.com/chapter/10.1007/978-3-031-98417-4_14" },
+      { label: "Paper", href: "https://arxiv.org/pdf/2503.02099" },
+      { label: "Code", href: "https://github.com/edavalosanaya/LLMsAsEducationalAnalysts" },
+    ],
+    imageSrc: "/paper_teasers/LLMsAsBehavioralAnalysts_AIED2025.png",
+    imageAlt: "LLM Multi-agent Flow Diagram"
+  },
+  {
+    title:
+      "Eye movements as predictors of student experiences during nursing simulation learning events",
+    authors:
+      "M. Lee, C. Vatral, C. Cohn, E. Davalos, M. Jessee, G. Biswas, D. Levin",
+    venue: "CRPI",
+    year: 2025,
+    links: [
+      { label: "Website", href: "https://link.springer.com/article/10.1186/s41235-025-00640-7" },
+    ],
+    imageSrc: "/paper_teasers/eye_cognitive_2025.png",
+    imageAlt: "Egocentric view of nursing simulation with gaze overlay"
+  },
+  {
+    title:
+      "Beyond Instructed Tasks: Recognizing In-the-Wild Reading Behaviors in the Classroom Using Eye Tracking",
+    authors:
+      "E. Davalos, J.A. Salas, Y. Zhang, N. Srivastava, Y. Thatigotla, A. Gonzales, S. McFadden, S.-J. Cho, G. Biswas, A. Goodwin",
+    venue: "ArXiv",
+    year: 2025,
+    links: [
+      { label: "Paper", href: "https://arxiv.org/pdf/2501.18468" },
+    ],
+    imageSrc: "/paper_teasers/BeyondInstructedTasks_ArXiv2025.png",
+    imageAlt: "Behavior segmented gaze data in reading assessments"
+  },
+  {
+    title:
+      "Designing an AI-Enhanced Timeline for Monitoring Multimodal Interactions in Embodied Learning Environments",
+    authors:
+      "J. Fonteles, N. Srivastava, E. Davalos, A. TS, G. Biswas",
+    venue: "ICCE",
+    year:2024,
+    links: [
+      { label: "Website", href: "https://library.apsce.net/index.php/ICCE/article/view/4907" },
+      { label: "Paper", href: "/papers/ICCE2024-Workshop Paper_ Embodied Learning.pdf" },
+    ],
+    imageSrc: "/paper_teasers/Designing_ICCE2024.png",
+    imageAlt: "MMLA in Embodied Learning Environments"
+  },
+  {
+    title:
+      "GazeViz: A web-based approach for visualizing learner gaze patterns in online educational environment",
+    authors:
+      "E. Davalos, N. Srivastava, Y. Zhang, A. Goodwin, G. Biswas",
+    venue: "ICCE",
+    year:2024,
+    links: [
+      { label: "Website", href: "https://library.apsce.net/index.php/ICCE/article/view/4974" },
+      { label: "Paper", href: "https://library.apsce.net/index.php/ICCE/article/view/4974/4903" },
+      { label: "Code", href: "https://github.com/RedForestAI/ETProWeb" },
+    ],
+    imageSrc: "/paper_teasers/GazeViz_2024.png",
+    imageAlt: "Gaze-based Dashboard Visualization"
+  },
+  {
+    title:
+      "3D Gaze Tracking for Studying Collaborative Interactions in Mixed-Reality Environments",
+    authors:
+      "E. Davalos, Y. Zhang, A. TS, J. Fonteles, U. Timalsina, G. Biswas",
+    venue: "ICMI Companion",
+    year:2024,
+    links: [
+      { label: "Website", href: "https://dl.acm.org/doi/abs/10.1145/3686215.3688380" },
+      { label: "Paper", href: "https://dl.acm.org/doi/pdf/10.1145/3686215.3688380" },
+      { label: "Code", href: "https://github.com/edavalosanaya/3DGazeTracking_ICMIW2024" },
+    ],
+    imageSrc: "/paper_teasers/3DGaze_ICMI2024.png",
+    imageAlt: "3D Gaze Tracking using Depth Reconstruction and 3D Gaze Estimation"
+  },
+  {
+    title:
+      "Multimodal methods for analyzing learning and training environments: A systematic literature review",
+    authors:
+      "C. Cohn, E. Davalos, C. Vatral, J. Fonteles, H. Wang, M. Ma, G. Biswas",
+    venue: "ArXiv",
+    year:2024,
+    links: [
+      { label: "Website", href: "https://oele-isis-vanderbilt.github.io/MMLTE_SLR/" },
+      { label: "Paper", href: "https://arxiv.org/abs/2408.14491" },
+    ],
+    imageSrc: "/paper_teasers/MMLTE_2024.png",
+    imageAlt: "MMLA Framework Diagram"
+  },
+  {
+    title:
+      "A first step in using machine learning methods to enhance interaction analysis for embodied learning environments",
+    authors:
+      "J. Fonteles, E. Davalos, A. TS, Y. Zhang, M. Zhou, E. Ayalon, A. Lane, S. Steinberg, G. Anton, J. Danish, N. Enyedy, G. Biswas",
+    venue: "AIED",
+    year:2024,
+    links: [
+      { label: "Website", href: "https://link.springer.com/chapter/10.1007/978-3-031-64299-9_1" },
+      { label: "Paper", href: "https://arxiv.org/pdf/2405.06203" },
+    ],
+    imageSrc: "/paper_teasers/FirstSteps_AIED2024.png",
+    imageAlt: "MMLA Timeline Visualization"
+  },
+  {
+    title:
+      "Chimerapy: a scientific distributed streaming framework for real-time multimodal data retrieval and processing",
+    authors:
+      "E. Davalos, U. Timalsina, Y. Zhang, J. Wu, J. Fonteles, G. Biswas",
+    venue: "IEEE BigData",
+    year:2023,
+    links: [
+      { label: "Website", href: "https://ieeexplore.ieee.org/abstract/document/10386382" },
+      { label: "Paper", href: "https://www.researchgate.net/profile/Eduardo-Davalos-Anaya/publication/377601125_ChimeraPy_A_Scientific_Distributed_Streaming_Framework_for_Real-time_Multimodal_Data_Retrieval_and_Processing/links/666e19daa54c5f0b94662fc0/ChimeraPy-A-Scientific-Distributed-Streaming-Framework-for-Real-time-Multimodal-Data-Retrieval-and-Processing.pdf" },
+      { label: "Code", href: "https://github.com/ChimeraPy" },
+    ],
+    imageSrc: "/paper_teasers/ChimeraPy_IEEEBigData2023.png",
+    imageAlt: "Block diagram depicting ChimeraPy architecture"
+  },
+  {
+    title:
+      "Prediction of Students’ Self-confidence Using Multimodal Features in an Experiential Nurse Training Environment",
+    authors:
+      "C. Vatral, M. Lee, C. Cohn, E. Davalos, D. Levin, G. Biswas",
+    venue: "AIED",
+    year:2023,
+    links: [
+      { label: "Website", href: "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_41" },
+      { label: "Paper", href: "https://www.researchgate.net/profile/Caleb-Vatral/publication/372015876_Prediction_of_Students%27_Self-confidence_Using_Multimodal_Features_in_an_Experiential_Nurse_Training_Environment/links/64c96492862f8d299989172d/Prediction-of-Students-Self-confidence-Using-Multimodal-Features-in-an-Experiential-Nurse-Training-Environment.pdf" },
+    ],
+    imageSrc: "/paper_teasers/Prediction_AIED2023.png",
+    imageAlt: "Feature Set used in Analysis"
+  },
+  {
+    title:
+      "Identifying gaze behavior evolution via temporal fully-weighted scanpath graphs",
+    authors:
+      "E. Davalos, C. Vatral, C. Cohn, J. Fonteles, G. Biswas, N. Mohammed, M. Lee, D. Levin",
+    venue: "LAK",
+    year:2023,
+    links: [
+      { label: "Website", href: "https://dl.acm.org/doi/abs/10.1145/3576050.3576117" },
+      { label: "Paper", href: "/papers/LAK2023__Identifying_Gaze_Behavior_Evolution.pdf" },
+    ],
+    imageSrc: "/paper_teasers/IdentifyGaze_LAK2023.gif",
+    imageAlt: "Feature Set used in Analysis"
+  },
+  {
+    title:
+      "Using the DiCoT framework for integrated multimodal analysis in mixed-reality training environments",
+    authors:
+      "C. Vatral, G. Biswas, C. Cohn, E. Davalos, N. Mohammed",
+    venue: "Fontiers of AI",
+    year:2022,
+    links: [
+      { label: "Website", href: "https://dl.acm.org/doi/abs/10.1145/3576050.3576117" },
+    ],
+    imageSrc: "/paper_teasers/Dicot_FAI2023.jpg",
+    imageAlt: "DiCoT Framework Overview"
+  },
 ];
 
 const CONTACT = {
@@ -169,25 +341,8 @@ export function HomePage() {
               </h2>
               <ul className="space-y-4">
                 {PUBLICATIONS.map((pub, i) => (
-                  <li key={i} className="rounded-lg border p-4">
-                    <h3 className="font-semibold leading-snug">
-                      {pub.title}
-                    </h3>
-                    <p className="mt-1 text-sm text-muted-foreground">{pub.authors}</p>
-                    <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
-                      {pub.venue && (
-                        <span className="rounded border bg-muted px-2 py-0.5 text-muted-foreground">
-                          {pub.venue} {pub.year ? `• ${pub.year}` : ""}
-                        </span>
-                      )}
-                      {pub.links?.map((l) => (
-                        <Button key={l.href} size="sm" variant="outline" asChild>
-                          <a href={l.href} target="_blank" rel="noreferrer noopener">
-                            {l.label}
-                          </a>
-                        </Button>
-                      ))}
-                    </div>
+                  <li key={pub.title + i} className="mb-4 last:mb-0">
+                  <PublicationCard {...pub} />
                   </li>
                 ))}
               </ul>
