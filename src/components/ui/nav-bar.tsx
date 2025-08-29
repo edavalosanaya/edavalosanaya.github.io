@@ -15,8 +15,8 @@ import { Button } from "./button";
 
 const SECTIONS = [
   { id: "", label: "Home" },
-  { id: "teaching", label: "Teaching" },
-  { id: "research", label: "Research" },
+  // { id: "teaching", label: "Teaching" },
+  // { id: "research", label: "Research" },
 ] as const;
 
 function scrollToId(id: string) {

@@ -12,8 +12,8 @@ const PROFILE = {
   title: "Assistant Professor – AIED, HCI, LLMs",
   headshot: "eduardo_davalos.webp", // place under docs/public/profiles/
   bio: [
-    "I am an Assistant Professor working at the intersection of AI in Education (AIED), Human–Computer Interaction (HCI), and Large Language Models (LLMs). My research develops privacy‑preserving, browser‑native sensing and modeling techniques that translate into scalable learning technologies.",
-    "I developed WebEyeTrack, a head‑pose‑aware, deep‑learning gaze estimation framework for the browser, and collaborate widely across cognitive science, learning analytics, and computer vision.",
+    "I'm an Assistant Professor at Trinity University, working at the intersection of AI in Education (AIED), Human–Computer Interaction (HCI), and Large Language Models (LLMs). My research develops privacy‑preserving, browser‑native sensing and modeling techniques that translate into scalable learning technologies.",
+    "My PhD is in Computer Science from Vanderbilt University, where I developed WebEyeTrack, a head‑pose‑aware, deep‑learning gaze estimation framework for the browser, and collaborated widely across cognitive science, learning analytics, and computer vision.",
   ],
   interests: [
     "LLMs in Education",
@@ -24,14 +24,6 @@ const PROFILE = {
   ],
   cvPdf: "/CVs/Eduardo-Davalos-CV_Aug29_2025.pdf", // place under docs/public/
 };
-
-// type Pub = {
-//   title: string;
-//   authors: string;
-//   venue?: string;
-//   year?: string | number;
-//   links?: { label: string; href: string }[];
-// };
 
 const PUBLICATIONS: PublicationCardProps[] = [
   {
@@ -49,7 +41,6 @@ const PUBLICATIONS: PublicationCardProps[] = [
     imageSrc: "/paper_teasers/WebEyeTrack_AAAI2026.png",
     imageAlt: "WebEyeTrack Architecture Figure"
   },
-  // Add more entries here
   {
     title:
       "LLMs as Educational Analysts: Transforming Multimodal Data Traces into Actionable Reading Assessment Reports",
