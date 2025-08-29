@@ -1,5 +1,4 @@
-import React from "react";
-import { Menu, Github } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import {
   NavigationMenu,
@@ -9,11 +8,13 @@ import {
 } from "./components/ui/navigation-menu";
 import { Button } from "./components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./components/ui/sheet";
-import { Separator } from "./components/ui/separator";
-import { CodeBlock } from "./components/ui/code-block"
-import { InlineCode } from "./components/ui/inline-code"
-import { AvatarCard } from "./components/ui/avatar-card";
-import { YouTubeEmbed } from "./components/ui/youtube-embed";
+// import { Separator } from "./components/ui/separator";
+// import { CodeBlock } from "./components/ui/code-block"
+// import { InlineCode } from "./components/ui/inline-code"
+// import { AvatarCard } from "./components/ui/avatar-card";
+// import { YouTubeEmbed } from "./components/ui/youtube-embed";
+
+// @ts-ignore
 import { HomePage } from "./pages/home";
 
 // https://gist.github.com/SheldonWangRJT/8d3f44a35c8d1386a396b9b49b43c385
@@ -103,23 +104,23 @@ function MobileNav() {
   );
 }
 
-function Section({ id, title, children }: React.PropsWithChildren<{ id: string; title: string }>) {
-  return (
-    <section
-      id={id}
-      className="scroll-mt-24 md:scroll-mt-28 py-6"
-      aria-label={title}
-    >
-      <div className="container mx-auto max-w-5xl px-4">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">{title}</h2>
-        <Separator className="mb-6 mt-2" />
-        <div className="prose prose-zinc dark:prose-invert max-w-none">
-          {children}
-        </div>
-      </div>
-    </section>
-  );
-}
+// function Section({ id, title, children }: React.PropsWithChildren<{ id: string; title: string }>) {
+//   return (
+//     <section
+//       id={id}
+//       className="scroll-mt-24 md:scroll-mt-28 py-6"
+//       aria-label={title}
+//     >
+//       <div className="container mx-auto max-w-5xl px-4">
+//         <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">{title}</h2>
+//         <Separator className="mb-6 mt-2" />
+//         <div className="prose prose-zinc dark:prose-invert max-w-none">
+//           {children}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 export default function App() {
   return (
