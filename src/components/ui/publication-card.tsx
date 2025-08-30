@@ -46,7 +46,7 @@ export function PublicationCard({
 
   return (
     <article className={clsx("rounded-lg border p-4 sm:p-5", className)}>
-      <div className="flex gap-4">
+      <div className="flex flex-col sm:flex-row gap-4">
         {thumb ? (
           // <img
           //   src={thumb}
@@ -58,11 +58,10 @@ export function PublicationCard({
           // />
           <img
             src={thumb}
-            width={160}
             height={112}
             alt={imageAlt ?? title}
             loading="lazy"
-            className="max-w-full max-h-full object-contain"
+            className="max-w-full sm:max-w-[160px] max-h-full object-contain"
           />
         ) : null}
 
