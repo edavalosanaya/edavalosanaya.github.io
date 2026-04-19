@@ -22,10 +22,24 @@ const PROFILE = {
     "On‑device ML",
     "Learning Analytics",
   ],
-  cvPdf: "/CVs/Eduardo-Davalos-CV_Aug29_2025.pdf", // place under docs/public/
+  cvPdf: "/CVs/Eduardo-Davalos-CV_Apr18_2026.pdf", // place under docs/public/
 };
 
 const PUBLICATIONS: PublicationCardProps[] = [
+  {
+    title:
+      "AI Misuse in Education Is a Measurement Problem: Toward a Learning Visibility Framework",
+    authors:
+      "E. Davalos, Y. Zhang",
+    venue: "AIR-RES" ,
+    year: 2026,
+    links: [
+      { label: "Paper", href: "https://arxiv.org/pdf/2603.07834" },
+      { label: "Presentation", href: "/presentations/AIR-RES2026.key" },
+    ],
+    imageSrc: "/paper_teasers/AIMisuseInEducation_AIRRES2026.png",
+    imageAlt: "AIR-RES 2026 Conference Logo"
+  },
   {
     title:
       "WEBEYETRACK: Scalable Eye‑Tracking for the Browser via On‑Device Few‑Shot Personalization",
@@ -225,13 +239,17 @@ const CONTACT = {
 
 // Teaching grouped by term; add/swap terms as needed
 const TEACHING: Record<string, { code: string; name: string; href?: string }[]> = {
+  "Fall 2026": [
+    { code: "CSCI 1320", name: "Principles of Computer Science I"},
+    { code: "CSCI 3394", name: "Special Topics: NLP & LLMs" },
+  ],
+  "Spring 2026": [
+    { code: "CSCI 3345", name: "Web Application Design" },
+    { code: "CSCI 3366", name: "Parallel and Distributed Programming" },
+  ],
   "Fall 2025": [
     { code: "CSCI 1320", name: "Principles of Computer Science I"},
     { code: "CSCI 3394", name: "Special Topics: Human-Centered Artificial Intelligence" },
-  ],
-  "Spring 2025": [
-    { code: "CSCI 3345", name: "Web Application Design" },
-    { code: "CSCI 3366", name: "Parallel and Distributed Programming" },
   ],
 };
 // ----------------------------------------------------------------------------
