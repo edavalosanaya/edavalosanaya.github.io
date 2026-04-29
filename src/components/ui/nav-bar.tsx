@@ -16,7 +16,7 @@ type NavItem =
 
 const NAV_ITEMS: NavItem[] = [
   { label: "Home", to: "/", end: true },
-  { label: "Archeon Labs", href: "https://archeontech.github.io", external: true },
+  { label: "Spiral Labs", href: "https://getspiral.github.io", external: true },
   // { label: "Research", to: "/research" },
   // { label: "Students", to: "/students" },
   // Example PDF in /public:
